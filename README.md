@@ -35,6 +35,29 @@
 
 微信信息  
 
+需在微信测试号平台上传测试模板  
+
+![测试模板](https://tc.chengrui.xyz/2022/08/27/Jamk4d.png)  
+
+```
+{{first.DATA}}
+
+城市：{{city.DATA}}
+实况天气：{{weather.DATA}}
+气温：{{nowTemperature.DATA}}
+风速：{{wind.DATA}}
+湿度：{{wet.DATA}}
+今天天气：{{day1_wea.DATA}}
+明天天气：{{day2_wea.DATA}}
+后天天气：{{day3_wea.DATA}}
+
+♥遇见♥: {{meetDate.DATA}}
+♥在一起♥: {{togetherDate.DATA}}
+
+距离{{name1.DATA}}生日：{{birthDate1.DATA}}
+距离{{name2.DATA}}生日：{{birthDate2.DATA}}
+```
+
 ![微信信息](https://tc.chengrui.xyz/2022/08/27/urhRDg.png)  
 ![微信信息2](https://tc.chengrui.xyz/2022/08/27/FtPcC6.png)  
 
