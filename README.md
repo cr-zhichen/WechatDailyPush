@@ -1,6 +1,7 @@
 # WechatDailyPush
 
 本项目为微信公众号每日卡片推送服务  
+[项目源码](https://github.com/cr-zhichen/WechatDailyPush) [可执行文件下载](https://github.com/cr-zhichen/WechatDailyPush/releases)  
 
 ## 完成效果
 
