@@ -6,10 +6,10 @@
 ## 完成效果
 
 每日10点30分进行自动推送  
-![定时推送](https://tc.chengrui.xyz/2022/08/27/WechatIMG13.jpg)  
+![定时推送](https://tc.chengrui.xyz/2022/08/27/WechatIMG14.jpg)  
 
 每次向测试号发送消息时，进行一次推送  
-![被动推送](https://tc.chengrui.xyz/2022/08/27/WechatIMG12.jpg)  
+![被动推送](https://tc.chengrui.xyz/2022/08/27/WechatIMG15.jpg)  
 
 ## 准备工作
 
