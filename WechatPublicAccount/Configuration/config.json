@@ -2,7 +2,8 @@
   "timer": {
     "hour": 10,
     "minute": 30
-  },"personalInformation": {
+  },
+  "personalInformation": {
     "city": "北京",
     "name": "你的名字",
     "birthday": "你的生日 格式为 1990-01-01",
@@ -15,11 +16,8 @@
     "token": "微信平台Token",
     "appid": "微信公众号appid",
     "secret": "微信公众号秘钥",
-    "templateId": "微信模板消息id",
-    "receiverId": [
-      "需要发送模板消息的微信号",
-      "需要发送模板消息的微信号 2"
-    ],
+    "templateId": ["微信模板消息id"],
+    "receiverId": ["需要发送模板消息的微信号", "需要发送模板消息的微信号 2"],
     "jumpUrl": "点击模板消息跳转的链接"
   },
   "thirdParty": {
