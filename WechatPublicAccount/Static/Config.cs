@@ -27,7 +27,11 @@ public static class Config
         token = wxJson["token"].ToString();
         appid = wxJson["appid"].ToString();
         secret = wxJson["secret"].ToString();
-        templateId = wxJson["templateId"].ToString();
+
+        foreach (var item in wxJson["templateId"] ?? new JArray())
+        {
+            templateId.Add(item.ToString());
+        }
 
         foreach (var item in wxJson["receiverId"] ?? new JArray())
         {
@@ -53,7 +57,7 @@ public static class Config
     public static string token { get; set; }
     public static string appid { get; set; }
     public static string secret { get; set; }
-    public static string templateId { get; set; }
+    public static List<string> templateId { get; set; } = new List<string>();
     public static List<string> receiverId { get; set; } = new List<string>();
     public static string jumpUrl { get; set; }
     public static string aWordUrl { get; set; }

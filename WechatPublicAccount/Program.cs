@@ -1,23 +1,20 @@
 ﻿using System.Timers;
+using WechatPublicAccount;
 using WechatPublicAccount.Controllers;
 using WechatPublicAccount.Static;
 
-Config.ReadConfiguration();
+Config.ReadConfiguration(); //读取配置文件
+Countdown.StartCountdown(); //开始倒计时
 
-System.Timers.Timer timer = new System.Timers.Timer();
-timer.Enabled = true;
-timer.Interval = 60000; //执行间隔时间,单位为毫秒;此时时间间隔为1分钟  
-timer.Start();
-timer.Elapsed += new System.Timers.ElapsedEventHandler(test);
-
-static void test(object source, ElapsedEventArgs e)
+Countdown.countdownEvent += (() =>
 {
     if (DateTime.Now.Hour == Config.hour && DateTime.Now.Minute == Config.minute)
     {
-        TemplateMessageSend.SendTemplateMessage();
+        TemplateMessageSend.SendTemplateMessage(TemplateRequest.DailyPush);
     }
-}
+});
 
+// TemplateMessageSend.SendTemplateMessage(TemplateRequest.DailyPush);
 
 var builder = WebApplication.CreateBuilder(args);
 

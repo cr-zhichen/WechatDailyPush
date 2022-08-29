@@ -54,7 +54,7 @@ public class Wx : ControllerBase
 
         if (xmldoc.MsgType != "event")
         {
-            TemplateMessageSend.SendTemplateMessage(xmldoc.FromUserName);
+            TemplateMessageSend.SendTemplateMessage(TemplateRequest.DailyPush,xmldoc.FromUserName);
         }
 
         return responseContent;
