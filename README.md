@@ -58,6 +58,8 @@
 距离{{name2.DATA}}生日：{{birthDate2.DATA}}
 ```
 
+> 注！ 下方图片中templateId有误 应为 "templateId": ["微信模板消息id"]
+
 ![微信信息](https://tc.chengrui.xyz/2022/08/27/urhRDg.png)  
 ![微信信息2](https://tc.chengrui.xyz/2022/08/27/FtPcC6.png)  
 
