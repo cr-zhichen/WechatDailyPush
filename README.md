@@ -6,10 +6,10 @@
 ## 完成效果
 
 每日10点30分进行自动推送  
-![定时推送](https://tc.chengrui.xyz/2022/08/27/WechatIMG14.jpg)  
+![定时推送](https://img-cdn.ccrui.cn/2022/08/27/WechatIMG14.jpg)  
 
 每次向测试号发送消息时，进行一次推送  
-![被动推送](https://tc.chengrui.xyz/2022/08/27/WechatIMG15.jpg)  
+![被动推送](https://img-cdn.ccrui.cn/2022/08/27/WechatIMG15.jpg)  
 
 ## 准备工作
 
@@ -27,17 +27,17 @@
 定时执行  
 示例为每日10点30分执行推送
 
-![定时执行](https://tc.chengrui.xyz/2022/08/27/pJaVYW.png)  
+![定时执行](https://img-cdn.ccrui.cn/2022/08/27/pJaVYW.png)  
 
 基础信息  
 
-![基础信息](https://tc.chengrui.xyz/2022/08/27/Hgfuih.png)  
+![基础信息](https://img-cdn.ccrui.cn/2022/08/27/Hgfuih.png)  
 
 微信信息  
 
 需在微信测试号平台上传测试模板  
 
-![测试模板](https://tc.chengrui.xyz/2022/08/27/Jamk4d.png)  
+![测试模板](https://img-cdn.ccrui.cn/2022/08/27/Jamk4d.png)  
 
 ```
 {{first.DATA}}
@@ -60,12 +60,12 @@
 
 > 注！ 下方图片中templateId有误 应为 "templateId": ["微信模板消息id"]
 
-![微信信息](https://tc.chengrui.xyz/2022/08/27/urhRDg.png)  
-![微信信息2](https://tc.chengrui.xyz/2022/08/27/FtPcC6.png)  
+![微信信息](https://img-cdn.ccrui.cn/2022/08/27/urhRDg.png)  
+![微信信息2](https://img-cdn.ccrui.cn/2022/08/27/FtPcC6.png)  
 
 第三方信息
 
-![第三方信息](https://tc.chengrui.xyz/2022/08/27/Sqtrkk.png)  
+![第三方信息](https://img-cdn.ccrui.cn/2022/08/27/Sqtrkk.png)  
 
 ### 部署服务器
 
@@ -76,12 +76,12 @@
 
 也可直接使用宝塔面板进行部署  
 
-![宝塔部署](https://tc.chengrui.xyz/2022/08/27/wi4oJp.png)  
+![宝塔部署](https://img-cdn.ccrui.cn/2022/08/27/wi4oJp.png)  
 
 ## 完成部署并测试
 
 在微信公众平台上填写服务器域名 若绑定域名为 `wx.ccrui.cn`则需要填写`http://wx.ccrui.cn/wx`  
-![填写域名](https://tc.chengrui.xyz/2022/08/27/mAVNPu.png)  
+![填写域名](https://img-cdn.ccrui.cn/2022/08/27/mAVNPu.png)  
 
 绑定完成后，向微信测试号中随便发一条消息 测试号会回应该条消息并推送每日卡片  
 每日的设定时间，微信会向配置文件中的全部用户进行一次推送  
